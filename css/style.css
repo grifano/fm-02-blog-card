@@ -79,7 +79,11 @@ main {
   align-items: center;
   justify-content: center;
   height: 100svh;
-  padding-bottom: 53px;
+}
+@media screen and (max-width: 768px) {
+  main {
+    padding-bottom: 80px;
+  }
 }
 .container {
   max-width: 375px;

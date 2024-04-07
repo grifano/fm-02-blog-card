@@ -17,35 +17,47 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Frontend Mentor | QR code component</title>
+    <title>Frontend Mentor | Blog preview card</title>
   </head>
   <body>
     <main>
-      <div class="qr-component">
-        <img
-          class="qr-image"
-          src="./images/image-qr-code.png"
-          alt="qr code"
-          width="288"
-          height="288"
-        />
-        <h1 class="qr-heading">
-          Improve your front-end skills by building projects
-        </h1>
-        <div class="qr-content">
-          <p class="qr-text">
-            Scan the QR code to visit Frontend Mentor and take your coding
-            skills to the next level
+      <div class="container">
+        <div class="blog-card_component">
+          <img
+            src="./images/illustration-article.svg"
+            alt="abstract figures"
+            width="326"
+            height="200"
+            class="blog-card_image"
+          />
+          <div class="blog-card_tag">Learning</div>
+          <p class="blog-card_date">Published 21 Dec 2023</p>
+          <h1 class="blog-card_title">HTML & CSS foundations</h1>
+          <p class="blog-card_description">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
           </p>
+          <div class="blog-card_author-wrap">
+            <img
+              src="./images/image-avatar.webp"
+              alt="Greg Hooper"
+              width="32"
+              height="32"
+              class="blog-card_avatar"
+            />
+            <p class="blog-card_author">Greg Hooper</p>
+          </div>
         </div>
       </div>
     </main>
 
     <footer class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="https://www.grifano.com">Serhii Orlenko</a>.
+      <div class="attribution_wrap">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://www.grifano.com">Serhii Orlenko</a>.
+      </div>
     </footer>
   </body>
 </html>

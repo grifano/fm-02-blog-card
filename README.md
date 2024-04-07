@@ -13,7 +13,7 @@ from tech to the best cycling routes.
 
 Happy exploring!
 
-# Project: QR Code Component
+# Project: Design preview for the Blog preview card coding challenge
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges that help to improve
 coding skills by building realistic projects.
@@ -22,8 +22,12 @@ coding skills by building realistic projects.
 
 ### Requirements
 
-Build out this QR code component and get it looking as close to the design as
+Build out this blog preview card and get it looking as close to the design as
 possible.
+
+Your users should be able to:
+
+- See hover and focus states for all interactive elements on the page
 
 ### Tech Stack:
 

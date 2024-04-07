@@ -1,0 +1,139 @@
+/*** Fonts ***/
+/* outfit-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/outfit-v11-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* outfit-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/outfit-v11-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/*** Variables ***/
+:root {
+  /*** Colors ***/
+  --blue: #2c7dfa;
+  --blue-shade: #3685ff;
+  --dark-navy: #1f314f;
+  --grey: #7d889e;
+  --light-grey: #d5e1ef;
+  --white: #fff;
+  /*** Fonts ***/
+  --font-family: 'Outfit', sans-serif;
+}
+
+/*** Reset styles ***/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+input,
+textarea {
+  outline: none;
+}
+
+/*** Base Styles ***/
+body {
+  font-family: var(--font-family);
+  font-size: 15px;
+  letter-spacing: 0.01em;
+  line-height: 1.4;
+  color: var(--grey);
+  background-color: var(--light-grey);
+}
+
+/*** QR Component Styles ***/
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100svh;
+  padding-bottom: 53px;
+}
+.qr-component {
+  max-width: 320px;
+  background-color: var(--white);
+  padding: 16px 16px 40px 16px;
+  border-radius: 20px;
+  text-align: center;
+}
+.qr-image {
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+.qr-content {
+  padding: 0 16px;
+}
+.qr-heading {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+  color: var(--dark-navy);
+  margin-bottom: 16px;
+}
+.qr-text {
+  color: var(--grey);
+}
+
+/*** Attribution footer ***/
+.attribution {
+  color: var(--dark-navy);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: var(--white);
+  padding: 16px;
+  text-align: center;
+}
+.attribution a {
+  text-decoration: underline;
+  opacity: 0.7;
+  transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.attribution a:hover,
+.attribution a:focus {
+  opacity: 1;
+}

@@ -37,8 +37,8 @@ Your users should be able to:
 ### Links
 
 - Solution URL:
-  [FrontendMentor Challenge Hub](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H/hub)
-- Live Site URL: [GitHub Pages](https://grifano.github.io/fm-01-qr-code/)
+  [FrontendMentor Challenge Hub](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS/hub)
+- Live Site URL: [GitHub Pages](https://grifano.github.io/fm-02-blog-card/)
 
 ## Author
 

@@ -37,7 +37,7 @@ Your users should be able to:
 ### Links
 
 - Solution URL:
-  [FrontendMentor Solution Hub](https://www.frontendmentor.io/solutions/social-links-profile-component-grifano-QgPNEH8zi3)
+  [FrontendMentor Solution Hub](https://www.frontendmentor.io/solutions/blog-preview-card-component-grifano-HV_4jLNf-R)
 - Live Site URL: [GitHub Pages](https://grifano.github.io/fm-02-blog-card/)
 
 ## Author
